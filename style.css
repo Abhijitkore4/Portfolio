@@ -1,0 +1,213 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+}
+
+header {
+    background-color: #00264e;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #bdc4ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #007bff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+
+header h1{
+    color: white;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #004084;
+    color: #343a40;
+    margin: 0;
+    padding-bottom: 60px; /* Add padding to the bottom to make space for the footer */
+}
+
+.Certificate{
+    display: block;
+}
+
+nav {
+    background-color: #00264e;
+    padding: 1.5em;
+    text-align: center;
+    display: fixed;
+    
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+    display: inline;
+    margin-right: 15px;
+    
+}
+
+.navbar {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+a{
+    color: #343a40;
+    text-decoration: underline;
+    
+    
+}
+a:hover {
+    color: #dddddd;
+}
+
+/* Rest of your CSS remains unchanged */
+
+footer {
+    background-color: #00264e;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    
+}
+
+
+a:hover {
+    color: #ffffff; /* Darker color when hovering over links */
+}
+
+
+/* Add this CSS to your existing styles */
+
+#contact {
+    margin-top: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Add this to your CSS file */
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+}
+
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 50%; /* Optional: Add a circular border */
+}
+
+
+/* Add this to your existing CSS */
+
+#education table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#education th, #education td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#education th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Add this to your existing CSS */
+
+/* Add a class to elements you want to animate */
+.animated {
+    opacity: 0;
+    transform: translateY(20px); /* Move element down initially */
+    transition: opacity 1s, transform 1s;
+}
+
+/* Apply animation when the element is in the viewport */
+.animated.in-viewport {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
